@@ -6,7 +6,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 style={{ textAlign: "center" }}>Code Editor</h1>
+        <h1>Code Editor</h1>
         <CodeEditor />
       </header>
     </div>
