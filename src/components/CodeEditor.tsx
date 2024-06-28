@@ -1,7 +1,7 @@
 import React, { useState, ChangeEvent } from "react";
 import Prism from "prismjs";
 import "prismjs/themes/prism.css";
-//import "./CodeEditor.css";
+import "./CodeEditor.css";
 
 const CodeEditor: React.FC = () => {
   const [code, setCode] = useState<string>("");
