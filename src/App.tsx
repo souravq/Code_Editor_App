@@ -11,6 +11,16 @@ const App: React.FC = () => {
         </h1>
         <CodeEditor />
       </header>
+      <footer className="App-footer">
+        Developed by Sourav Bera
+        <a
+          href="https://www.linkedin.com/in/souravbera515/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+      </footer>
     </div>
   );
 };
